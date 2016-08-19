@@ -1,0 +1,57 @@
+exclude:
+- ".jekyll-metadata"
+- ".gitignore"
+- ".travis.yml"
+- todo.txt
+- Gemfile
+- Gemfile.lock
+- Makefile
+- vendor
+- README.md
+- CONTRIBUTING.md
+- LICENSE.md
+- dap.md
+- uxtesting.md
+- work
+- ".sass-cache"
+
+# defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: agencies
+    values:
+      layout: default
+
+collections:
+  agencies:
+    output: true
+    permalink: /:path/
+  data_pages:
+    output: true
+    permalink: /:path/data/
+
+# Site title and description
+title: "analytics.lacity.org | The US government's web traffic."
+description: "Official data on web traffic to hundreds of US federal government websites. Published by the Digital Analytics Program."
+
+# Site's own URL
+url: https://analytics.usa.gov
+
+# Default dropdown title, will not appear if there are no sub-pages
+dropdown_title: All Participating Websites
+
+# Default data url
+data_url: /data
+
+# GitHub information
+org_name: GSA
+repo_name: analytics.usa.gov
+
+# twitter information
+twitter: usgsa
+
+sass:
+  sass_dir: sass
+  style: nested
