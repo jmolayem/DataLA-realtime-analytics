@@ -33,8 +33,8 @@ collections:
     permalink: /:path/data/
 
 # Site title and description
-title: "analytics.lacity.org | The US government's web traffic."
-description: "Official data on web traffic to hundreds of US federal government websites. Published by the Digital Analytics Program."
+title: "analytics.lacity.org | The City of LA's web traffic"
+description: "Official data on web traffic to hundreds of City of LA government websites. Made publicly available by the Mayor's Data Team and LA's Information Technology Agency."
 
 # Site's own URL
 url: https://analytics.usa.gov
