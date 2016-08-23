@@ -33,7 +33,7 @@ collections:
     permalink: /:path/data/
 
 # Site title and description
-title: "analytics.lacity.org | The City of LA's web traffic"
+title: "webanalytics.lacity.org | The City of LA's web traffic"
 description: "Official data on web traffic to hundreds of City of LA government websites. Made publicly available by the Mayor's Data Team and LA's Information Technology Agency."
 
 # Site's own URL
